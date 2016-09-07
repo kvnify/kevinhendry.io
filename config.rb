@@ -16,9 +16,11 @@ page '/*.txt', layout: false
 # proxy "/this-page-has-no-template.html", "/template-file.html", locals: {
 #  which_fake_page: "Rendering a fake page with a local variable" }
 
-###
-# Helpers
-###
+# Blog settings
+
+set :markdown_engine, :redcarpet
+set :markdown, :fenced_code_blocks => true, :disable_indented_code_blocks => true, :strikethrough => true, :smartypants => true, :with_toc_data => true
+set :slim, :layout_engine => :slim
 
 activate :blog do |blog|
   # This will add a prefix to all links, template references and source paths
@@ -27,8 +29,8 @@ activate :blog do |blog|
   blog.permalink = "{year}/{month}/{day}/{title}.html"
   blog.summary_separator = /(READMORE)/
   blog.default_extension = ".markdown"
-  blog.tag_template = "tag.html"
-  blog.calendar_template = "calendar.html"
+  # blog.tag_template = "tag.html"
+  # blog.calendar_template = "calendar.html"
 
   # Matcher for blog source files
   # blog.sources = "{year}-{month}-{day}-{title}.html"
@@ -46,6 +48,18 @@ activate :blog do |blog|
 end
 
 page "/feed.xml", layout: false
+
+activate :syntax
+activate :sprockets
+
+config[:js_dir] = 'js'
+config[:css_dir] = 'css'
+config[:images_dir] = 'img'
+
+###
+# Helpers
+###
+
 
 # Reload the browser automatically whenever files change
 configure :development do
