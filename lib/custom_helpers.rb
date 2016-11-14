@@ -55,7 +55,7 @@ module CustomHelpers
     image ||= data.site.dark_image
 
     if image[0] == '/'
-      image = "https://ashfurrow.com#{image}"
+      image = "https://kevinhendry.io#{image}"
     end
 
     image
@@ -66,7 +66,7 @@ module CustomHelpers
     image ||= current_resource.metadata[:page][:background_image]
 
     if image && image[0] == '/'
-      image = "https://ashfurrow.com#{image}"
+      image = "https://kevinhendry.io#{image}"
     end
 
     image
@@ -113,7 +113,7 @@ module CustomHelpers
   # Takes raw HTML rendered from post and turns it into something consumable by feeds.
   def prepare_feed_content (body)
     # Expand any relative URLs
-    body.gsub!('src="/img/', 'src="https://ashfurrow.com/img/') unless body.nil?
+    body.gsub!('src="/img/', 'src="https://kevinhendry.io/img/') unless body.nil?
 
     # Embed any YouTube videos
     require('lib/embed.rb')

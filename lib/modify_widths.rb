@@ -19,7 +19,7 @@ module Middleman
 
     AllowedLayouts = [
       "blog_post",
-      "_layout_all_standard_width"
+      "layout_all_standard_width"
     ]
 
     def initialize(app, options_hash={}, &block)
