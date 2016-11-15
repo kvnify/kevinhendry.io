@@ -20,20 +20,20 @@ meta itemprop='description' content=page_description /
 meta itemprop='thumbnailUrl' content=data.site.dark_image /
 
 / Open Graph
-meta property='og:site_name' content=data.site.name /
-meta property='og:title' content=og_title(current_article, current_resource) /
-meta property='og:url' content=this_url /
-meta property='og:type' content='website' /
-meta property='og:description' content=page_description /
-meta property='og:image' content=og_image_or_default(current_article, current_resource) /
+/ meta property='og:site_name' content=data.site.name /
+/ meta property='og:title' content=og_title(current_article, current_resource) /
+/ meta property='og:url' content=this_url /
+/ meta property='og:type' content='website' /
+/ meta property='og:description' content=page_description /
+/ meta property='og:image' content=og_image_or_default(current_article, current_resource) /
 
 / Twitter Cards
-meta name='twitter:card' content=twitter_card_type(current_resource)
-meta name='twitter:site' content='@kevinhendry'
-meta name='twitter:creator' content='@kevinhendry'
-meta name='twitter:title' content=og_title(current_article, current_resource)
-meta name='twitter:description' content=page_description
-meta name='twitter:image' content=og_image_or_default(current_article, current_resource)
+/ meta name='twitter:card' content=twitter_card_type(current_resource)
+/ meta name='twitter:site' content='@kevinhendry'
+/ meta name='twitter:creator' content='@kevinhendry'
+/ meta name='twitter:title' content=og_title(current_article, current_resource)
+/ meta name='twitter:description' content=page_description
+/ meta name='twitter:image' content=og_image_or_default(current_article, current_resource)
 
 / Favicon site icons etc
 link rel='image_src' href=data.site.dark_image 
@@ -69,7 +69,7 @@ script type='application/ld+json'
   | {
   |   '@context' ='http://schema.org',
   |   '@type' ='Person',
-  |   'name' ='Ash Furrow',
+  |   'name' ='Kevin Hendry',
   |   'url' ='https://kevinhendry.io',
   |   'image' ='http://static.kevinhendry.io/ashfurrow_square.jpg',
   |   'sameAs' =[ 'http://twitter.com/kevinhendry' 'http://instagram.com/khendry' 'http://github.com/khendry' ]
@@ -83,7 +83,7 @@ script type='application/ld+json'
   | }
 
 / Style-specific Javascripts
-= stylesheet_inline_tag 'clean-blog'
+= stylesheet_inline_tag 'critical'
 = javascript_inline_tag 'typekit'
 = javascript_inline_tag 'loadCSS'
 
