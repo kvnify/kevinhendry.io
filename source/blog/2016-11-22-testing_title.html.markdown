@@ -1,8 +1,8 @@
 ---
-title: Test Post
-date: 2016-11-02 01:18:55 UTC
-background_image: /img/post-sample-image.jpg
-background_image_source: https://twitter.com/CloudyConway/status/792124334320082944
+title: This is Just a Test
+date: 2016-11-22 05:53:24 UTC
+background_image: 
+background_image_source: 
 ---
 
 I heard about a cool [website that can identify the species of bird from a photo](http://www.iflscience.com/plants-and-animals/website-helps-you-identify-birds-looking-your-photo/). It's an impressive feat of computer vision research, but it's not an entirely automated process.

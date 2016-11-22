@@ -12,6 +12,7 @@ require 'slim'
 set :markdown_engine, :redcarpet
 set :markdown, :fenced_code_blocks => true, :disable_indented_code_blocks => true, :strikethrough => true, :smartypants => true, :with_toc_data => true
 set :slim, :layout_engine => :slim
+set :relative_links, true
 
 config[:js_dir] = 'js'
 config[:css_dir] = 'css'
