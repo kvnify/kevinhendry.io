@@ -7,6 +7,7 @@ gem 'middleman-livereload'
 gem 'middleman-syntax'
 gem 'middleman-sprockets'
 gem 'middleman-inliner', github: 'ashfurrow/middleman-inliner', branch: 'middleman-4'
+gem 'middleman-gh-pages'
 
 # For feed.xml.builder
 gem 'builder' 
