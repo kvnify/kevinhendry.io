@@ -129,7 +129,7 @@ h1 {
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 25px;
 }
 
 p {
@@ -472,14 +472,14 @@ ul {
 }
 
 body {
-  font-family: 'ff-tisa-web-pro', 'Georgia', 'Times New Roman', serif;
+  font-family: 'Copse', 'ff-tisa-web-pro', 'Georgia', 'Times New Roman', serif;
   font-size: 16px;
   color: #404040;
 }
 
 @media (min-width: 768px) {
   body {
-    font-size: 20px;
+    font-size: 14px;
   }
 }
 
@@ -494,7 +494,7 @@ p a {
 
 h1,
 h2 {
-  font-family: 'futura-pt', 'Futura', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', 'futura-pt', 'Futura', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
 }
 
@@ -515,7 +515,7 @@ hr.small {
   left: 0;
   width: 100%;
   z-index: 3;
-  font-family: 'futura-pt', 'Futura', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', 'futura-pt', 'Futura', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .navbar-custom .navbar-brand {
@@ -596,7 +596,7 @@ hr.small {
   font-size: 24px;
   line-height: 1.1;
   display: block;
-  font-family: 'futura-pt', 'Futura', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', 'futura-pt', 'Futura', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 400;
   margin: 10px 0 0;
 }

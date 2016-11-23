@@ -5,12 +5,12 @@
 
 body {
   @include serif;
-  font-size: 16px;
+  font-size: 18px;
   color: $gray-dark;
 
   /* Small devices (tablets, 768px and up) */
   @media (min-width: 768px) {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
@@ -45,8 +45,11 @@ p {
   }
 }
 
+h2 {
+  @include sans-serif;
+}
+
 h1,
-h2,
 h3,
 h4,
 h5,
@@ -262,7 +265,7 @@ hr.small {
       color: $brand-primary;
     }
     > .post-title {
-      font-size: 30px;
+      font-size: 25px;
       margin-bottom: 10px;
     }
     > .post-subtitle {

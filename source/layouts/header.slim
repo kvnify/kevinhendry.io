@@ -12,7 +12,6 @@ header.intro-header style="background-image: url('#{image_name}');"
         div class=(current_article.nil? ? 'site-heading' : 'post-heading')
           h1=title
           - if (defined? subtitle) && subtitle && subtitle.length > 0
-            hr.small/
             span.subheading=subtitle
 
   / If a background image source was specified, link to it.
