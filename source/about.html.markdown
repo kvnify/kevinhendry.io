@@ -28,7 +28,7 @@ Contiued a lot of the great work we'd started at TVWorks with a lot of familiar 
 
 ## TVWorks (Liberate Technologies)
 
-Creating an magical platform for Java applications on the digital cable set-top device. Massively underpowered hardware, very constrained resources. So. Much. Fun. This was my formative experience as a software developer and the best teams I've worked with.
+Create a magical platform for Java applications on the digital cable set-top device. Massively underpowered hardware, very constrained resources. So. Much. Fun. This was my formative experience as a software developer and the best teams I've worked with.
 
 ## ZTR Control Systems
 
