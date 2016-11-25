@@ -1,42 +1,16 @@
 ---
-title: This is Just a Test
+title: Begining Again
 date: 2016-11-22 05:53:24 UTC
-background_image: 
-background_image_source: 
 ---
 
-I heard about a cool [website that can identify the species of bird from a photo](http://www.iflscience.com/plants-and-animals/website-helps-you-identify-birds-looking-your-photo/). It's an impressive feat of computer vision research, but it's not an entirely automated process.
+I recently changed jobs. I was working as an iOS Software Developer at a small firm in my town. I left. I might talk about that a bit more in the future, but not today. Today I’m excited to get my new home on the internet off the ground and to be able to talk about and work on and share some things that I’m doing and going to be doing. I have some agressive goals for this site and for myself over the next year.
 
 (READMORE)
-  
-BEGIN_WIDE
 
-> Once users have taken a photo, they draw a box around the bird, click its bill, eye and tail and tell [the website] where and when the photo was taken.
+I've made a number of false starts on these ambitious plans in the past and they may yet prove to be another failed attempt. But here I go nonetheless. I plan to create posts here that tell the story of how things are going with my various side projects.  
 
-END_WIDE
+This build of the site has leaned pretty heavily on the work Ash Furrow has done for his personal site. I thank him a great deal for all the things he's done and shared. 
 
-This idea of automating tasks _just enough_ to augment human capabilities has been on my mind since I met [Joe Carrafa](https://twitter.com/joetastic), the Engineering Manager of Applied Research at Warby Parker. A lot of applied research in our field is interested in AI/machine learning and automation.
+Back to the side projects. Up first is Zengaku; a number puzzle game similar to Sudoku or Kakuro. A group of 5 co-workers and friends, including me, made an app called Zengaku back in 2009. It was not a financial success. It was a first attempt. But we were still pretty proud of it.  It was a success in that we worked together to build it, saw it through to release and iterated on it to try and see if we could make it grow. It didn't, but we did. 
 
-We discussed the fascinating idea of _semi-autonomous_ programs. Like _almost_ artificial intelligence. A little bit of human input and the computer fills in the rest. There are some things that humans are really good at but are intractable for computers. Humans can fill in the gap in the computers' capabilities, and then computers can automate the parts that are difficult for humans.
-
-A lot has already been said on the topic of automation, like this awesome video, but I want to talk about automation from an artistic perspective.
-
-BEGIN_WIDE
-
-YOUTUBE 7Pq-S557XQU
-
-END_WIDE
-
-Researchers have built [algorithms that transform photos into Van Gogh paintings](http://thenextweb.com/creativity/2015/08/31/machine-or-picasso-this-algorithm-can-transform-photos-into-fine-art/). Google has [created an AI that composes music](http://www.theverge.com/2016/6/1/11829678/google-magenta-melody-art-generative-artificial-intelligence). There are [open source projects that generate Monet paintings from MS-Paint](https://github.com/alexjc/neural-doodle). How cool is that!
-
-People worry about what you could call an "art of the gaps." This is the scenario where human creativity is relegated to the shrinking gaps between what hasn't yet been automated by technology. 
-
-I share this worry, I think most technologists should, but like most technologists I can't help but be excited, too. Because new technology doesn't just automate things; new technology creates _new ways to be creative_. Let me explain. 
-
-Take photography for example. Right now, photography is one of the most widely practiced forms of art in history because of the ubiquity of camera phones. Some are concerned that the ease of taking pictures has come at the cost of creative freedom. They're right, image processing algorithms have replaced darkrooms and have removed a lot of creative control from photography. 
-
-But it's not all bad! Photography has _exploded_ as an art form. And there are now _new types_ of photography, too. We now have Instagram stars and artists [parodying Instagram stars](http://petapixel.com/2016/01/23/this-artist-got-90k-instagram-followers-with-photos-of-a-fake-lavish-lifestyle/) and cool discussions about ["what is art?"](http://petapixel.com/2015/05/26/richard-prince-is-a-jerk/) and all kinds of new stuff!
-
-I think it's _awesome_ that smartphones helped to proliferate photography as a casual form of art. I still enjoy a darkroom, but there are clear benefits to what smartphones have done for photography. It's not just that photography is easier, it's different now.
-
-Automation is going to keep supplementing human activity, including forms of labour and forms of art. In art's case, I think the benefits far, far outweigh the costs.
+I have no illusions of my re-vamped and modernized build setting the world on fire. But as my first app, and as a passion project I can't stand to see it languish. So I'm goign to re-build it with Swift and use Apple's SceneKit APIs to give it a more game like feel than our mostly UIKit based initial implementation. Beyond that I hope that making it free with ads and a simple in-app purchase to remove them will suffice to make it worth my time to keep it going. I may also try a macOS port if the re-launched iOS version does decently.
