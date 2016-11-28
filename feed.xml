@@ -14,7 +14,7 @@
     <link rel="alternate" href="http://blog.url.com/blog/testing_title/"/>
     <id>http://blog.url.com/blog/testing_title/</id>
     <published>2016-11-22T00:53:24-05:00</published>
-    <updated>2016-11-25T00:18:02-05:00</updated>
+    <updated>2016-11-28T02:34:24-05:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -22,11 +22,11 @@
 
 &lt;p&gt;&lt;/p&gt;
 
-&lt;p&gt;I&amp;rsquo;ve made a number of false starts on these ambitious plans in the past and they may yet prove to be another failed attempt. But here I go nonetheless. I plan to create posts here that tell the story of how things are going with my various side projects.  &lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve made a number of false starts on these ambitious plans in the past and they may yet prove to be another failed attempt. But here I go nonetheless. I plan to create posts here that tell the story of how things are going with my various side projects.&lt;/p&gt;
 
 &lt;p&gt;This build of the site has leaned pretty heavily on the work Ash Furrow has done for his personal site. I thank him a great deal for all the things he&amp;rsquo;s done and shared. &lt;/p&gt;
 
-&lt;p&gt;Back to the side projects. Up first is Zengaku; a number puzzle game similar to Sudoku or Kakuro. A group of 5 co-workers and friends, including me, made an app called Zengaku back in 2009. It was not a financial success. It was a first attempt. But we were still pretty proud of it.  It was a success in that we worked together to build it, saw it through to release and iterated on it to try and see if we could make it grow. It didn&amp;rsquo;t, but we did. &lt;/p&gt;
+&lt;p&gt;Back to the side projects. Up first is Zengaku; a number puzzle game similar to Sudoku or Kakuro. A group of 5 co-workers and friends, including me, made an app called Zengaku back in 2009. It was not a financial success. It was a first attempt. But we were still pretty proud of it. It was a success in that we worked together to build it, saw it through to release and iterated on it to try and see if we could make it grow. It didn&amp;rsquo;t, but we did. &lt;/p&gt;
 
 &lt;p&gt;I have no illusions of my re-vamped and modernized build setting the world on fire. But as my first app, and as a passion project I can&amp;rsquo;t stand to see it languish. So I&amp;rsquo;m goign to re-build it with Swift and use Apple&amp;rsquo;s SceneKit APIs to give it a more game like feel than our mostly UIKit based initial implementation. Beyond that I hope that making it free with ads and a simple in-app purchase to remove them will suffice to make it worth my time to keep it going. I may also try a macOS port if the re-launched iOS version does decently.&lt;/p&gt;
 </content>
