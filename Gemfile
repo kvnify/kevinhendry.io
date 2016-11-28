@@ -21,6 +21,11 @@ gem 'redcarpet'
 gem 'liquid'
 gem 'nokogiri'
 gem 'therubyracer'
-gem 'builder'
 gem 'ansi'
 gem 'twitter'
+
+group :distribution do
+  gem 'danger'
+  gem 'danger-prose'
+  gem 'html-proofer'
+end
