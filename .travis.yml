@@ -1,0 +1,25 @@
+lanugage: ruby
+
+sudo: false
+
+cache: bundler
+
+rvm: 2.3.1
+
+addons: 
+  apt: 
+    packages:
+      - aspell
+      - aspell-en
+
+before_install:
+  - npm install -g orta/node-markdown-spellcheck
+  - echo $TRAVIS_COMMIT_RANGE
+  - cp .proselintrc ~/
+  - eval `ssh-agent -s` # ???
+  
+script:
+  - bundle exec rake build
+  - bundle exec danger
+
+after_success: bundle exec rake publish

@@ -1,1 +1,2 @@
 require 'middleman-gh-pages'
+
