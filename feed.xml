@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Blog Name</title>
-  <subtitle>Blog subtitle</subtitle>
-  <id>http://blog.url.com/blog</id>
-  <link href="http://blog.url.com/blog"/>
-  <link href="http://blog.url.com/feed.xml" rel="self"/>
+  <title>Kevin Hendry</title>
+  <subtitle>¯_(ツ)_/¯</subtitle>
+  <id>http://blog.kevinhendry.io/blog</id>
+  <link href="http://blog.kevinhendry.io/blog"/>
+  <link href="http://blog.kevinhendry.io/feed.xml" rel="self"/>
   <updated>2016-11-22T00:53:24-05:00</updated>
   <author>
-    <name>Blog Author</name>
+    <name>Kevin Hendry</name>
   </author>
   <entry>
     <title>Begining Again</title>
-    <link rel="alternate" href="http://blog.url.com/blog/testing_title/"/>
-    <id>http://blog.url.com/blog/testing_title/</id>
+    <link rel="alternate" href="http://blog.kevinhendry.io/blog/testing_title/"/>
+    <id>http://blog.kevinhendry.io/blog/testing_title/</id>
     <published>2016-11-22T00:53:24-05:00</published>
     <updated>2016-11-28T02:34:24-05:00</updated>
     <author>
-      <name>Article Author</name>
+      <name>Kevin Hendry</name>
     </author>
     <content type="html">&lt;p&gt;I recently changed jobs. I was working as an iOS Software Developer at a small firm in my town. I left. I might talk about that a bit more in the future, but not today. Today I’m excited to get my new home on the internet off the ground and to be able to talk about and work on and share some things that I’m doing and going to be doing. I have some agressive goals for this site and for myself over the next year.&lt;/p&gt;
 
