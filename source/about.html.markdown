@@ -5,7 +5,7 @@ background_image: /img/me@dubdub.jpg
 layout: layouts/layout_all_standard_width
 ---
 
-I am a Canadian software develope living London Ontario. I've spent most of my career building big things in small boxes. I've used an eclectic mix of languages along the way. I'm currently aspiring to build a stable of side projects while working full time and raising a family. 
+I am a Canadian software engineer living & working London Ontario. I've spent most of my career building big things in small boxes. I've used an eclectic mix of languages along the way. I'm currently aspiring to build a stable of side projects while working full time and raising a family. 
 
 
 If you'd like to get in touch, [Twitter](https://twitter.com/kevinhendry) is a great way to reach me. 
@@ -22,13 +22,13 @@ Bringing a custom digtial menu board and in store interactive advertising experi
 
 Created enterprise iOS applications for the mobile workforce. 
 
-## Cisco Systems
+## Cisco Systems Inc. - Service Provider Group
 
 Contiued a lot of the great work we'd started at TVWorks with a lot of familiar faces and began delving into what web technologies could offer the interactive cable experience. This is where I also first got my taste of professional iOS develpment.
 
-## TVWorks (Liberate Technologies)
+## Comcast / TVWorks / Liberate Technologies
 
-Create a magical platform for Java applications on the digital cable set-top device. Massively underpowered hardware, very constrained resources. So. Much. Fun. This was my formative experience as a software developer and the best teams I've worked with.
+Created a magical platform where Java applications could run on digital cable set-top devices. Massively underpowered hardware, very constrained resources. So. Much. Fun. This was my formative experience as a software developer and the best teams I've worked with.
 
 ## ZTR Control Systems
 
