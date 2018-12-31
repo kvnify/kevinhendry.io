@@ -5,20 +5,38 @@
   <id>http://blog.kevinhendry.io/blog</id>
   <link href="http://blog.kevinhendry.io/blog"/>
   <link href="http://blog.kevinhendry.io/feed.xml" rel="self"/>
-  <updated>2016-11-22T00:53:24-05:00</updated>
+  <updated>2016-12-28T00:26:03-05:00</updated>
   <author>
     <name>Kevin Hendry</name>
   </author>
   <entry>
-    <title>Begining Again</title>
-    <link rel="alternate" href="http://blog.kevinhendry.io/blog/testing_title/"/>
-    <id>http://blog.kevinhendry.io/blog/testing_title/</id>
-    <published>2016-11-22T00:53:24-05:00</published>
-    <updated>2016-11-28T02:34:24-05:00</updated>
+    <title>Learning SpriteKit</title>
+    <link rel="alternate" href="http://blog.kevinhendry.io/blog/learning-sprite-kit/"/>
+    <id>http://blog.kevinhendry.io/blog/learning-sprite-kit/</id>
+    <published>2016-12-28T00:26:03-05:00</published>
+    <updated>2018-12-31T15:14:33-05:00</updated>
     <author>
       <name>Kevin Hendry</name>
     </author>
-    <content type="html">&lt;p&gt;I recently changed jobs. I was working as an iOS Software Developer at a small firm in my town. I left. I might talk about that a bit more in the future, but not today. Today I’m excited to get my new home on the internet off the ground and to be able to talk about and work on and share some things that I’m doing and going to be doing. I have some agressive goals for this site and for myself over the next year.&lt;/p&gt;
+    <content type="html">&lt;p&gt;The first project I decided to work on is my old game called Zengaku. I’m not really a big fan of game development. It’s just not my calling. I don’t disparage those who love it. I know many do, but it’s not my thing. This is a pretty simple game and I’m able to use the existing code base to help me get started to some degree. But I decided to modernize the code and the UI so that I’d be able to use the latest tools and learn something new  without having to start with nothing.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;I have a number of puzzle files generated and we developed our own simple, but proprietary file format for the game data. I just wanted to be able to extract the data from an example file so I could build and test that my modernized model objects worked correctly and I had a full fleshed out game file. This was simple enough. Although reading some of that old code and its dearth of comments was a bit of a challenge. The file format was meant to be pretty compact and efficient, but not exactly easy to parse or follow. I was able to make it go, but its pretty ugly.&lt;/p&gt;
+
+&lt;p&gt;I’m now at the point where I’d like to render the game board layout that I read from the file as images in a scene. Since I want this game to feel more like a game than our previous effort, I chose to use Apple’s 2D rendering framework to make that happen. The old implementation was UIKit based and rather static by most games standards. It was economical for us to build it that way and it seemed like decent trade off since the game itself was really just a number puzzle game with each cell as a data entry field. So what more do you need than some input fields and some buttons. I could probably follow that same path and have my “modern” game out much sooner. Although I still would be rather bored by it and I’d like to make it something that I’d have more fun playing and maybe decide to add a Sudoku and other game modes to at some point if this is popular enough to warrant further development. I don&amp;rsquo;t expect that to be the case. I just don&amp;rsquo;t really want our 1st app to actually completely die.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Beginning Again</title>
+    <link rel="alternate" href="http://blog.kevinhendry.io/blog/testing-title/"/>
+    <id>http://blog.kevinhendry.io/blog/testing-title/</id>
+    <published>2016-11-22T00:53:24-05:00</published>
+    <updated>2017-02-07T08:34:16-05:00</updated>
+    <author>
+      <name>Kevin Hendry</name>
+    </author>
+    <content type="html">&lt;p&gt;I recently changed jobs. I was working as an iOS Software Developer at a small firm in my town. I left. I might talk about that a bit more in the future, but not today. Today I’m excited to get my new home on the internet off the ground and to be able to talk about and work on and share some things that I’m doing and going to be doing. I have some aggressive goals for this site and for myself over the next year.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;
 
