@@ -3,7 +3,7 @@ title: Beginning Again
 date: 2016-11-22 05:53:24 UTC
 ---
 
-I recently changed jobs. I was working as an iOS Software Developer at a small firm in my town. I left. I might talk about that a bit more in the future, but not today. Today I’m excited to get my new home on the internet off the ground and to be able to talk about and work on and share some things that I’m doing and going to be doing. I have some agressive goals for this site and for myself over the next year.
+I recently changed jobs. I was working as an iOS Software Developer at a small firm in my town. I left. I might talk about that a bit more in the future, but not today. Today I’m excited to get my new home on the internet off the ground and to be able to talk about and work on and share some things that I’m doing and going to be doing. I have some aggressive goals for this site and for myself over the next year.
 
 (READMORE)
 
