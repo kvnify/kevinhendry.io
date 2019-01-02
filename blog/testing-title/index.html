@@ -563,8 +563,7 @@ hr.small {
 
 .intro-header {
   background: no-repeat center center;
-  background-color: #808080;
-  background-attachment: scroll;
+  background-color: #2d2d2d;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -652,14 +651,41 @@ header {
   position: relative;
 }
 
-.header-dimmer {
-  background-color: rgba(0,0,0,0.2);
+.header-background::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* Adjust the color values to achieve desired darkness */
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2));
+}
+
+.header-background {
+  background: no-repeat center center;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
   position: absolute;
   left: 0px;
   top: 0px;
   width: 100%;
   height: 100%;
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
 }
+
 
 @media (max-width: 768px) {
   .intro-header {
@@ -735,7 +761,7 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
 ga('create', 'UA-9572240-3', 'auto');
-ga('send', 'pageview');</script><noscript><link href="/css/all.css" rel="stylesheet" /></noscript></head><body><nav class="navbar navbar-default navbar-custom navbar-fixed-top"><div class="container-fluid"><div class="navbar-header page-scroll"><button class="navbar-toggle" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button"><span class="sr-only">Toggle Navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button></div><div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"><ul class="nav navbar-nav navbar-right"><li><a href="/">Blog</a></li><li><a href="/about/">About</a></li><li><a href="//blog.kevinhendry.io/feed.xml" class="text-link">Blog Feed</a><a href="//blog.kevinhendry.io/feed.xml" class="icon-link"><i class="fa fa-rss-square"></i></a></li></ul></div></div></nav><header class="intro-header" style="background-image: url('/img/sunset-blur.jpg');"><div class="header-dimmer"></div><div class="container"><div class="row"><div class='col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1'><div class="post-heading"><h1>Beginning Again</h1></div></div></div></div></header><div class="container"><article><div class="row"><div class='col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1'><p>I recently changed jobs. I was working as an iOS Software Developer at a small firm in my town. I left. I might talk about that a bit more in the future, but not today. Today I’m excited to get my new home on the internet off the ground and to be able to talk about and work on and share some things that I’m doing and going to be doing. I have some aggressive goals for this site and for myself over the next year.</p>
+ga('send', 'pageview');</script><noscript><link href="/css/all.css" rel="stylesheet" /></noscript></head><body><nav class="navbar navbar-default navbar-custom navbar-fixed-top"><div class="container-fluid"><div class="navbar-header page-scroll"><button class="navbar-toggle" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button"><span class="sr-only">Toggle Navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button></div><div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"><ul class="nav navbar-nav navbar-right"><li><a href="/">Blog</a></li><li><a href="/about/">About</a></li><li><a href="//blog.kevinhendry.io/feed.xml" class="text-link">Blog Feed</a><a href="//blog.kevinhendry.io/feed.xml" class="icon-link"><i class="fa fa-rss-square"></i></a></li></ul></div></div></nav><header class="intro-header"><div class="header-background" style="background-image: url('/img/sunset-blur.jpg');"></div><div class="container"><div class="row"><div class='col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1'><div class="post-heading"><h1>Beginning Again</h1></div></div></div></div></header><div class="container"><article><div class="row"><div class='col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1'><p>I recently changed jobs. I was working as an iOS Software Developer at a small firm in my town. I left. I might talk about that a bit more in the future, but not today. Today I’m excited to get my new home on the internet off the ground and to be able to talk about and work on and share some things that I’m doing and going to be doing. I have some aggressive goals for this site and for myself over the next year.</p>
 
 <p></p>
 
@@ -746,4 +772,4 @@ ga('send', 'pageview');</script><noscript><link href="/css/all.css" rel="stylesh
 <p>Back to the side projects. Up first is Zengaku; a number puzzle game similar to Sudoku or Kakuro. A group of 5 co-workers and friends, including me, made an app called Zengaku back in 2009. It was not a financial success. It was a first attempt. But we were still pretty proud of it. It was a success in that we worked together to build it, saw it through to release and iterated on it to try and see if we could make it grow. It didn&rsquo;t, but we did. </p>
 
 <p>I have no illusions of my re-vamped and modernized build setting the world on fire. But as my first app, and as a passion project I can&rsquo;t stand to see it languish. So I&rsquo;m goign to re-build it with Swift and use Apple&rsquo;s SceneKit APIs to give it a more game like feel than our mostly UIKit based initial implementation. Beyond that I hope that making it free with ads and a simple in-app purchase to remove them will suffice to make it worth my time to keep it going. I may also try a macOS port if the re-launched iOS version does decently.</p>
-<hr /><span class="meta">Posted on November 22, 2016</span></div></div></article><div class="row"><div class='col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1'><hr /><ul class="pager article_pager"><li class="next"><a href="/blog/learning-sprite-kit/"><div>Learning SpriteKit</div></a></li></ul></div></div></div><hr id="page_footer" /><footer><div class="container"><div class="row"><div class='col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1'><ul class="list-inline text-center"><li><a href="https://twitter.com/kevinhendry" title="Twitter"><span class="fa-stack fa-lg"><i class="fa fa-square fa-stack-2x"></i><i class="fa fa-twitter fa-stack-1x fa-inverse"></i></span></a></li><li><a href="https://github.com/khendry" title="GitHub"><span class="fa-stack fa-lg"><i class="fa fa-square fa-stack-2x"></i><i class="fa fa-github fa-stack-1x fa-inverse"></i></span></a></li><li><a href="http://stackoverflow.com/story/kevinhendry" title="StackOverflow"><span class="fa-stack fa-lg"><i class="fa fa-square fa-stack-2x"></i><i class="fa fa-stack-overflow fa-stack-1x fa-inverse"></i></span></a></li><li><a href="http://instagram.com/khendry" title="Instagram"><span class="fa-stack fa-lg"><i class="fa fa-square fa-stack-2x"></i><i class="fa fa-instagram fa-stack-1x fa-inverse"></i></span></a></li><li><a href="https://www.linkedin.com/in/kevinhendry" title="LinkedIn"><span class="fa-stack fa-lg"><i class="fa fa-square fa-stack-2x"></i><i class="fa fa-linkedin-square fa-stack-1x fa-inverse"></i></span></a></li></ul><p class="copyright text-muted"> This site is <a href='http://github.com/khendry/kevinhendry.io/'>open source</a>. <a href='http://purl.org/dc/dcmitype/Text'>Content</a> licensed under <a href='http://creativecommons.org/licenses/by/4.0/'>Creative Commons Attribution 4.0</a>.</p></div></div></div></footer><script src="//code.jquery.com/jquery-2.1.4.min.js"></script><script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script><script src="/js/all.js"></script></body></html>
+<hr /><span class="meta">Posted on November 22, 2016</span></div></div></article><div class="row"><div class='col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1'><hr /><ul class="pager article_pager"><li class="next"><a href="/blog/learning-sprite-kit/"><div>Learning SpriteKit</div></a></li></ul></div></div></div><hr id="page_footer" /><footer><div class="container"><div class="row"><div class='col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1'><ul class="list-inline text-center"><li><a href="https://twitter.com/KevinHendry" title="Twitter"><span class="fa-stack fa-lg"><i class="fa fa-square fa-stack-2x"></i><i class="fa fa-twitter fa-stack-1x fa-inverse"></i></span></a></li><li><a href="https://github.com/khendry" title="GitHub"><span class="fa-stack fa-lg"><i class="fa fa-square fa-stack-2x"></i><i class="fa fa-github fa-stack-1x fa-inverse"></i></span></a></li><li><a href="http://stackoverflow.com/story/KevinHendry" title="StackOverflow"><span class="fa-stack fa-lg"><i class="fa fa-square fa-stack-2x"></i><i class="fa fa-stack-overflow fa-stack-1x fa-inverse"></i></span></a></li><li><a href="http://instagram.com/khendry" title="Instagram"><span class="fa-stack fa-lg"><i class="fa fa-square fa-stack-2x"></i><i class="fa fa-instagram fa-stack-1x fa-inverse"></i></span></a></li><li><a href="https://www.linkedin.com/in/KevinHendry" title="LinkedIn"><span class="fa-stack fa-lg"><i class="fa fa-square fa-stack-2x"></i><i class="fa fa-linkedin-square fa-stack-1x fa-inverse"></i></span></a></li></ul><p class="copyright text-muted"> This site is <a href='http://github.com/khendry/kevinhendry.io/'>open source</a>. <a href='http://purl.org/dc/dcmitype/Text'>Content</a> licensed under <a href='http://creativecommons.org/licenses/by/4.0/'>Creative Commons Attribution 4.0</a>.</p></div></div></div></footer><script src="//code.jquery.com/jquery-2.1.4.min.js"></script><script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script><script src="/js/all.js"></script></body></html>
