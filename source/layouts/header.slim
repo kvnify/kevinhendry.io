@@ -4,8 +4,8 @@
 
 - background_image_source = current_resource.metadata[:page][:background_image_source]
 
-header.intro-header style="background-image: url('#{image_name}');"
-  .header-dimmer
+header.intro-header 
+  .header-background style="background-image: url('#{image_name}');"
   .container
     .row
       == standard_width_div do

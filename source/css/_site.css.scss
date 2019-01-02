@@ -188,6 +188,7 @@ hr.small {
   background: no-repeat center center; 
   background-color: $gray;
   background-attachment: scroll;
+  overflow: hidden;
   @include background-cover;
   // NOTE: Background images are set within the HTML using inline CSS!
   margin-bottom: 20px;
@@ -199,7 +200,7 @@ hr.small {
     @media only screen and (min-width: 768px) {
       padding: 150px 0;
     }
-  }
+  }  
   .site-heading,
   .page-heading {
     text-align: center;
@@ -222,6 +223,7 @@ hr.small {
     }
   }
   .post-heading {
+    text-shadow: 1px 1px 2px black;
     h1 {
       font-size: 35px;
     }

@@ -1,6 +1,7 @@
 ---
 title: Learning SpriteKit
 date: 2016-12-28 05:26:03 UTC
+background_image: /img/central-park-path.jpg
 ---
 
 The first project I decided to work on is my old game called Zengaku. I’m not really a big fan of game development. It’s just not my calling. I don’t disparage those who love it. I know many do, but it’s not my thing. This is a pretty simple game and I’m able to use the existing code base to help me get started to some degree. But I decided to modernize the code and the UI so that I’d be able to use the latest tools and learn something new  without having to start with nothing.
