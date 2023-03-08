@@ -1,5 +1,5 @@
 GIT
-  remote: git://github.com/ashfurrow/middleman-inliner.git
+  remote: https://github.com/ashfurrow/middleman-inliner.git
   revision: e3d8a29fc7a40cf97749e04476d801d3e0d34ab5
   branch: middleman-4
   specs:
@@ -181,7 +181,7 @@ GEM
       activesupport (>= 3.1)
     parallel (1.12.1)
     public_suffix (3.0.3)
-    rack (2.2.3)
+    rack (2.2.6.3)
     rack-livereload (0.3.17)
       rack
     rake (13.0.3)
